@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "visualutils",
+  "version": "${version}",
+  "name": "NullClient",
+  "description": "NullClient: menu pod klawiszem . z modulami wizualnymi i HUD (tracery, ESP, nametagi, radar, kompas, set gracza i inne).",
+  "authors": [
+    "NullClient"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.visualutils.VisualUtilsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "visualutils.mixins.json"
+  ]
+}

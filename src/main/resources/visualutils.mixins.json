@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "dev.visualutils.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HideLivingNameMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
